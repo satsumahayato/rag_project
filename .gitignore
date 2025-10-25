@@ -1,0 +1,15 @@
+# Virtual environment
+venv/
+__pycache__/
+
+# Local data and vector DB
+data/
+.chromadb/
+
+# Logs and cache
+*.log
+*.pyc
+.DS_Store
+
+# Environment keys
+.env

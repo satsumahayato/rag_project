@@ -1,0 +1,31 @@
+# --- Core app ---
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+
+# --- Data ingestion / parsing ---
+pymupdf==1.24.8           # PDF text extraction
+pdfplumber==0.11.4        # alternative PDF parser
+trafilatura==1.9.0        # HTML cleaning
+beautifulsoup4==4.12.3
+markdown-it-py==3.0.0
+python-frontmatter==1.1.0
+ftfy==6.2.0               # text fixups
+langdetect==1.0.9
+
+# --- Embeddings / vector store ---
+openai==1.50.0
+chromadb==0.5.5           # simple local vector DB
+tiktoken==0.7.0
+
+# --- Evaluation / utilities ---
+pandas==2.2.3
+numpy==1.26.4
+scikit-learn==1.5.2
+matplotlib==3.9.2
+rich==13.8.0
+pytest==8.3.3
+
+# --- Deployment / CI helpers ---
+python-dotenv==1.0.1
+gunicorn==23.0.0          # if using WSGI server
+requests==2.32.3
