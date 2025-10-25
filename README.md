@@ -1,12 +1,20 @@
-RAG Policy Assistant
-A Retrieval-Augmented Generation (RAG) web app built with FastAPI, ChromaDB, and OpenAI. It allows users to ask natural-language questions about internal company policies (PDF, Markdown, or text files) and receive grounded, cited answers.
-Features
-• Parses, cleans, and normalizes mixed-format documents (PDF, HTML, Markdown, TXT)
-• Splits text into semantically meaningful chunks
-• Generates embeddings (OpenAI or Hugging Face) and stores them in a vector database
-• Retrieves the most relevant chunks for a user query
-• Uses GPT-based generation to produce contextual, cited answers
-• Includes a simple, interactive FastAPI web interface
+# 🧠 RAG Policy Assistant
+
+A **Retrieval-Augmented Generation (RAG)** web app built with **FastAPI**, **ChromaDB**, and **OpenAI**.  
+It allows users to ask natural-language questions about internal company policies (PDF, Markdown, or text files)  
+and receive grounded, cited answers.
+
+---
+
+### ✨ Features
+
+- Parses, cleans, and normalizes mixed-format documents (**PDF**, **HTML**, **Markdown**, **TXT**)  
+- Splits text into semantically meaningful chunks  
+- Generates embeddings (OpenAI or Hugging Face) and stores them in a vector database  
+- Retrieves the most relevant chunks for a user query  
+- Uses GPT-based generation to produce contextual, cited answers  
+- Includes a simple, interactive **FastAPI** web interface
+
 ## 🧩 Project Structure
 
 ```text
