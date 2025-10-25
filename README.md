@@ -7,24 +7,27 @@ Features
 • Retrieves the most relevant chunks for a user query
 • Uses GPT-based generation to produce contextual, cited answers
 • Includes a simple, interactive FastAPI web interface
-Project Structure
-ai-engineering-group-project/<BR>
-│<BR>
-├── src/<BR>
-│   ├── main.py                        # FastAPI app entry point<BR>
-│   ├── ingestion/<BR>
-│   │   ├── parse_documents.py         # Parses & cleans PDFs, HTML, MD, TXT<BR>
-│   │   └── validate_and_preview.py    # Validates corpus & adds metadata<BR>
-│   ├── embeddings/<BR>
-│   │   ├── chunk_text.py              # Semantic chunking<BR>
-│   │   └── embed_corpus.py            # Embedding & vector storage<BR>
-│   ├── retrieval/<BR>
-│   │   └── retrieve_chunks.py         # Top-k similarity search<BR>
-│   └── ...<BR>
-│<BR>
-├── requirements.txt                   # Python dependencies<BR>
-├── .gitignore                         # Ignore local data & venv<BR>
-└── README.md                          # Project overview<BR>
+## 🧩 Project Structure
+
+```text
+ai-engineering-group-project/
+│
+├── src/
+│   ├── main.py                        # FastAPI app entry point
+│   ├── ingestion/
+│   │   ├── parse_documents.py         # Parses & cleans PDFs, HTML, MD, TXT
+│   │   └── validate_and_preview.py    # Validates corpus & adds metadata
+│   ├── embeddings/
+│   │   ├── chunk_text.py              # Semantic chunking
+│   │   └── embed_corpus.py            # Embedding & vector storage
+│   ├── retrieval/
+│   │   └── retrieve_chunks.py         # Top-k similarity search
+│   └── ...
+│
+├── requirements.txt                   # Python dependencies
+├── .gitignore                         # Ignore local data & venv
+└── README.md                          # Project overview
+
 <BR>
 Local Setup
 1. Clone the repository:
