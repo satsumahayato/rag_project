@@ -28,7 +28,6 @@ ai-engineering-group-project/
 ├── .gitignore                         # Ignore local data & venv
 └── README.md                          # Project overview
 
-<BR>
 Local Setup
 1. Clone the repository:
    git clone https://github.com/satsumahayato/rag_project.git
