@@ -1,3 +1,11 @@
+# A lightwight, custom RAG pipeline is implemented manually, giving full transparency and flexibility.
+# The orchestration sequence is explicit:
+# 1. Document ingestion -> parse_documents.py
+# 2. Chunking -> chunk_text.py
+# 3. Embedding -> embed_corpus.py (using OpenAI embeddings API directly)
+# 4. Storage and retrieval -> ChromaDB client API
+# 5. Answer generation -> direct call to OpenAI chat.completions endpoint in main.py
+
 from pathlib import Path
 from fastapi.responses import JSONResponse
 
